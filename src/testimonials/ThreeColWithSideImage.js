@@ -35,7 +35,7 @@ const Column = styled.div`
 const Card = styled.div`
   ${tw`flex flex-col sm:flex-row items-center sm:items-start text-center sm:text-left h-full mx-4 px-2 py-8`}
   .imageContainer {
-    ${tw`border text-center rounded-full p-5 flex-shrink-0`}
+    ${tw`border text-center rounded-full p-5 flex-shrink-0 `}
     img {
       ${tw`w-6 h-6 `}
     }
@@ -107,8 +107,8 @@ const ThreeColWithSideImage= ({ cards = null, heading = "Amazing Features", subh
         {cards.map((card, i) => (
           <Column key={i}>
             <Card>
-              <span className="imageContainer">
-                <img style={{color:"blue"}} src={card.imageSrc || defaultCardImage} alt="" />
+              <span style={{color:"blue"}} className="imageContainer">
+                <img  src={card.imageSrc || defaultCardImage} alt="" />
               </span>
               <span className="textContainer">
                 <span className="title">{card.title || "Fully Secure"}</span>
