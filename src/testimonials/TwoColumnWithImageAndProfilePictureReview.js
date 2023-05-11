@@ -54,7 +54,7 @@ const Quote = tw.blockquote`text-center lg:text-left text-sm sm:text-lg lg:text-
 // const CustomerInfo = tw.div`mt-6 flex flex-col sm:flex-row items-center justify-center lg:justify-start`;
 // const CustomerProfilePicture = tw.img`rounded-full w-20 h-20`;
 // const CustomerTextInfo = tw.div`text-center lg:text-left sm:ml-6 mt-2 sm:mt-0`;
-// const CustomerName = tw.h5`font-semibold text-xl lg:text-2xl xl:text-3xl text-primary-500`;
+const CustomerName = tw.h5`font-semibold text-xl lg:text-2xl xl:text-3xl text-primary-500`;
 // const CustomerTitle = tw.p`font-medium text-secondary-100`;
 
 const QuotesLeft = tw(QuotesLeftIcon)`w-6 h-6 opacity-75 text-primary-500 inline-block mr-1 -mt-3`;
@@ -85,8 +85,8 @@ const TwoColumnWithImageAndProfilePictureReview= ({
       profileImageSrc:
         "https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=3.25&w=512&h=512&q=80",
       quote:
-        "Conséquences sur la santé du Personnels : Les RPS agissent sur la santé des personnels de façon directe, par l’augmentation de la fréquence de certaines maladies, ou bien de façon indirecte, par l’induction de certains comportements dits à risque. À un premier niveau, ils se traduisent par des souffrances diffuses (douleurs, palpitations, mal-être...). A un deuxième niveau, ils induisent des maladies graves, chroniques, dont les conséquences peuvent être lourdes Ils ont des effets importants dans les domaines cardiovasculaires,musculosquelettique et mentaux, qui sont trois domaines majeurs en santé publique,en termes de maladie, de mortalité, que de coût pour la société.",
-      customerName: "Charlotte Hale",
+        " Les RPS agissent sur la santé des personnels de façon directe, par l’augmentation de la fréquence de certaines maladies, ou bien de façon indirecte, par l’induction de certains comportements dits à risque. À un premier niveau, ils se traduisent par des souffrances diffuses (douleurs, palpitations, mal-être...). A un deuxième niveau, ils induisent des maladies graves, chroniques, dont les conséquences peuvent être lourdes Ils ont des effets importants dans les domaines cardiovasculaires,musculosquelettique et mentaux, qui sont trois domaines majeurs en santé publique,en termes de maladie, de mortalité, que de coût pour la société.",
+      customerName: "Conséquences sur la santé du Personnels :",
       customerTitle: "CEO, Delos Inc."
     },
     {
@@ -95,8 +95,8 @@ const TwoColumnWithImageAndProfilePictureReview= ({
       profileImageSrc:
         "https://images.unsplash.com/photo-1531427186611-ecfd6d936c79?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2.25&w=512&h=512&q=80",
       quote:
-        "Conséquences sur les collectifs et sur l’efficacité du travail : De mauvaises conditions de travail entraînent à leur tour une détérioration des relations interprofessionnelles, allant de la mauvaise ambiance aux violences constituées entre les personnes (entre collègues ou bien dans la chaîne hiérarchique). Leur poids négatif sur les individus et leurs missions rejaillit sur le fonctionnement des services et sur la qualité du travail (risque d’erreur, délais dépassés, absentéisme, démotivation, baisse de vigilance).",
-      customerName: "Adam Cuppy",
+        " De mauvaises conditions de travail entraînent à leur tour une détérioration des relations interprofessionnelles, allant de la mauvaise ambiance aux violences constituées entre les personnes (entre collègues ou bien dans la chaîne hiérarchique). Leur poids négatif sur les individus et leurs missions rejaillit sur le fonctionnement des services et sur la qualité du travail (risque d’erreur, délais dépassés, absentéisme, démotivation, baisse de vigilance).",
+      customerName: "Conséquences sur les collectifs et sur l’efficacité du travail :",
       customerTitle: "Founder, EventsNYC"
     }
   ];
@@ -136,6 +136,7 @@ const TwoColumnWithImageAndProfilePictureReview= ({
                     <TestimonialText key={index}>
                       <QuoteContainer>
                         <Quote>
+                          <CustomerName>{testimonial.customerName}</CustomerName>
                           <QuotesLeft />
                           {testimonial.quote}
                           <QuotesRight />
