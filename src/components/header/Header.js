@@ -86,7 +86,7 @@ const AppHeader = ({
       <NavLink href="/">Métier & Définition</NavLink>
       <NavLink href="/facteurs">Les facteurs de risques </NavLink>
       <NavLink href="/causes">Les causes  </NavLink>
-      <NavLink href="/#">Les conséquences </NavLink>
+      <NavLink href="/consequences">Les conséquences </NavLink>
       <NavLink href="/#">Résultats </NavLink>
 
      
