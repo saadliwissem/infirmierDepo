@@ -10,6 +10,11 @@ import { SectionHeading } from "./components/misc/Headings";
 import intro from "./images/intro.jpg";
 import Risques from "./images/Risques.jpg";
 import FacteurRisque from "./FacteurRisque";
+import LesCauses from "./LesCauses";
+import styled from "styled-components";
+import { ReactComponent as SvgDecoratorBlob1 } from "./images/svg-decorator-blob-5.svg";
+import { ReactComponent as SvgDecoratorBlob2 } from "./images/svg-decorator-blob-7.svg";
+
 const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block italic `;
 const imageCss = tw`rounded-4xl max-w-2xl`;
 //const Subheading = tw.span`tracking-wider text-sm font-medium`;
@@ -18,6 +23,12 @@ const Description = tw.span`inline-block mt-8 text-black`;
 const Heading = tw(
   SectionHeading
 )`ml-12 mt-4 font-black text-center text-2xl sm:text-4xl lg:text-4xl text-center md:text-left leading-tight`;
+const DecoratorBlob1 = styled(SvgDecoratorBlob1)`
+  ${tw`pointer-events-none -z-20 absolute right-[35px] top-[40px] h-64 w-64 opacity-15 transform translate-x-2/3 -translate-y-12 text-pink-400`}
+`;
+const DecoratorBlob2 = styled(SvgDecoratorBlob2)`
+  ${tw`pointer-events-none -z-20 absolute left-0   top-[20px] h-64 w-64 opacity-15 transform translate-x-2/3 -translate-y-12 text-primary-500`}
+`;
 function App() {
   return (
     <>
@@ -30,10 +41,12 @@ function App() {
               <>
                 {/* 1) */}
                 <AnimationRevealPage>
+                  <DecoratorBlob1 />
                   <Heading>
                     Les risqués psychosociaux chez les infirmiers (ères)
                     travaillant dans les services d'oncologie.
                   </Heading>
+                  <DecoratorBlob2 />
                   <TwoColWithButton
                     imageRounded
                     subheading=""
@@ -99,7 +112,9 @@ function App() {
               </>
             }
           />
-          <Route path="facteurs" element={<FacteurRisque/>}/>
+
+          <Route path="/facteurs" element={<FacteurRisque />} />
+          <Route path="/causes" element={<LesCauses />} />
         </Routes>
       </Router>
 
