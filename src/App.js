@@ -8,6 +8,7 @@ import TwoColWithButton from "./components/features/TwoColWithButton";
 import { SectionHeading } from "./components/misc/Headings";
 import intro from "./images/intro.jpg"
 import Risques from "./images/Risques.jpg"
+import FacteurRisque from "./FacteurRisque";
 const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block italic `;
 const imageCss = tw`rounded-4xl max-w-2xl`;
 //const Subheading = tw.span`tracking-wider text-sm font-medium`;
@@ -22,7 +23,7 @@ function App() {
     <AppHeader/>
     {/* 1) */}
       <AnimationRevealPage>
-        <Heading>Les risqués psychosociaux chez les infirmiers (ères) travaillant dans</Heading> 
+        <Heading>Les risqués psychosociaux chez les infirmiers (ères) travaillant dans  les services d'oncologie.</Heading> 
         <TwoColWithButton
           imageRounded
           subheading=""
@@ -85,6 +86,7 @@ function App() {
         />
       </AnimationRevealPage>
       {/* 3)  */}
+      <FacteurRisque/>
 
     </>
   );

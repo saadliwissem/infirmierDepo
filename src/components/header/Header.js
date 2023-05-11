@@ -83,11 +83,11 @@ const AppHeader = ({
 
   const defaultLinks = [
     <NavLinks key={1}>
-      <NavLink href="/">Home</NavLink>
-      <NavLink href="/#">Collaborations</NavLink>
-      <NavLink href="/#">About us </NavLink>
-      <NavLink href="/#">Contact Us</NavLink>
-      <NavLink href="/#">notifications</NavLink>
+      <NavLink href="/">Métier & Définition</NavLink>
+      <NavLink href="/#">Les facteurs de risques </NavLink>
+      <NavLink href="/#">Les causes  </NavLink>
+      <NavLink href="/#">Les conséquences </NavLink>
+      <NavLink href="/#">Résultats </NavLink>
 
      
     </NavLinks>,
