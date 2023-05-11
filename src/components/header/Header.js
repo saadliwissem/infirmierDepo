@@ -84,8 +84,8 @@ const AppHeader = ({
   const defaultLinks = [
     <NavLinks key={1}>
       <NavLink href="/">Métier & Définition</NavLink>
-      <NavLink href="https://les-rps.netlify.app/facteurs">Les facteurs de risques </NavLink>
-      <NavLink href="/#">Les causes  </NavLink>
+      <NavLink href="/facteurs">Les facteurs de risques </NavLink>
+      <NavLink href="/causes">Les causes  </NavLink>
       <NavLink href="/#">Les conséquences </NavLink>
       <NavLink href="/#">Résultats </NavLink>
 

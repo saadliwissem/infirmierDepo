@@ -99,7 +99,7 @@ function App() {
               </>
             }
           />
-          <Route path="https://les-rps.netlify.app/facteurs" element={<FacteurRisque/>}/>
+          <Route path="facteurs" element={<FacteurRisque/>}/>
         </Routes>
       </Router>
 
