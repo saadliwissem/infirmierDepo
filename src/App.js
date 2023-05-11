@@ -1,6 +1,6 @@
 //import logo from "./logo.svg";
 import "./App.css";
-//import AppHeader from "./components/header/Header.js";
+import AppHeader from "./components/header/Header.js";
 import AnimationRevealPage from "./components/helpers/AnimationRevealPage.js";
 import TwoColumnWithVideo from "./hero/TwoColumnWithVideo";
 import tw from "twin.macro";
@@ -19,6 +19,7 @@ const Heading = tw(
 function App() {
   return (
     <>
+    <AppHeader/>
     {/* 1) */}
       <AnimationRevealPage>
         <Heading>Les risqués psychosociaux chez les infirmiers (ères) travaillant dans</Heading> 

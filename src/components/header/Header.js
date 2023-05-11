@@ -10,8 +10,6 @@ import logo from "../../images/logo1.png";
 import { ReactComponent as MenuIcon } from "feather-icons/dist/icons/menu.svg";
 import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
 
-import { Link } from "react-router-dom";
-
 const Header = tw.header`
   flex justify-between items-center 
   max-w-screen-xl mx-auto
@@ -25,7 +23,7 @@ export const NavLinks = tw.div`inline-block`;
  * hocus:bg-primary-700 will apply the bg-primary-700 class on hover or focus
  */
 export const NavLink = tw.a`
-    text-red-100
+    text-primary-500
   no-underline
   text-lg my-2 lg:text-sm lg:mx-6 lg:my-0
   font-semibold tracking-wide transition duration-300
@@ -91,16 +89,7 @@ const AppHeader = ({
       <NavLink href="/#">Contact Us</NavLink>
       <NavLink href="/#">notifications</NavLink>
 
-      {/* <Link to="/profile">
-        <ImgWrapper src="https://scontent.ftun4-2.fna.fbcdn.net/v/t39.30808-6/297860797_3378071792482285_6297438250722114348_n.png?_nc_cat=104&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=TIDdYJyjnTMAX9p_6sE&_nc_ht=scontent.ftun4-2.fna&oh=00_AfBJUdirIxONLe3BSBQUPhqQifg5eXhLKnbBMy9Vb0YXLQ&oe=645AA36C" />
-      </Link> */}
-
-      <NavLink href="/login" tw="lg:ml-12!">
-        Login
-      </NavLink>
-      <PrimaryLink css={roundedHeaderButton && tw`rounded-full`} href="/signUp">
-        Sign Up
-      </PrimaryLink>
+     
     </NavLinks>,
   ];
 
@@ -111,7 +100,7 @@ const AppHeader = ({
   const defaultLogoLink = (
     <LogoLink href="/">
       <img src={logo} alt="logo" />
-      Les risqués psychosociaux chez les infirmiers (ères) travaillant dans les services d'oncologie
+      RPS
     </LogoLink>
   );
 
