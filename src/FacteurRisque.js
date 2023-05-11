@@ -4,7 +4,7 @@ import styled from "styled-components";
 import AnimationRevealPage from "./components/helpers/AnimationRevealPage";
 import TwoColWithButton from "./components/features/TwoColWithButton";
 import tw from "twin.macro";
-import intro from "./images/intro.jpg";
+import facteur from "./images/facteurs.jpg";
 import { SectionHeading, Subheading } from "./components/misc/Headings";
 //const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block italic `;
 const imageCss = tw`rounded-4xl max-w-2xl`;
@@ -53,7 +53,7 @@ const FacteurRisque = () => {
           buttonRounded={false}
           textOnLeft={false}
           primaryButtonText="read more"
-          imageSrc={intro}
+          imageSrc={facteur}
           imageCss={imageCss}
           imageDecoratorBlobCss={tw`left-1/2 -translate-x-1/2 md:w-32 md:h-32 opacity-25`}
           primaryButtonUrl="/profile"
