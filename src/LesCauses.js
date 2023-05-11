@@ -2,6 +2,7 @@ import React from "react";
 import ThreeColumnWithProfileImage from "./testimonials/ThreeColumnWithProfileImage";
 import causeC from "./images/causeC.png";
 import causeD from "./images/causeD.png";
+import AnimationRevealPage from "./components/helpers/AnimationRevealPage";
 
 const LesCauses = () => {
   const testimonials = [
@@ -22,8 +23,11 @@ const LesCauses = () => {
   ];
   return (
     <>
+    <AnimationRevealPage>
+
       <ThreeColumnWithProfileImage heading="les causes" />
       <ThreeColumnWithProfileImage testimonials={testimonials} />
+    </AnimationRevealPage>
     </>
   );
 };
