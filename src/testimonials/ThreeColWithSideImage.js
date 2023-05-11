@@ -50,7 +50,7 @@ const Card = styled.div`
   }
 
   .description {
-    ${tw`mt-1 sm:mt-4 font-medium  leading-loose`}
+    ${tw`mt-1 sm:mt-4 font-medium  leading-loose text-gray-600`}
   }
 `;
 
@@ -112,7 +112,7 @@ const ThreeColWithSideImage= ({ cards = null, heading = "Amazing Features", subh
               </span>
               <span className="textContainer">
                 <span className="title">{card.title || "Fully Secure"}</span>
-                <p style={{color:"black"}} className="description">
+                <p  className="description">
                   {card.description || "Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud."}
                 </p>
               </span>
