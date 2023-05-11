@@ -9,7 +9,7 @@ import { SectionHeading, Subheading } from "./components/misc/Headings";
 //const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block italic `;
 const imageCss = tw`rounded-4xl max-w-2xl`;
 //const Subheading = tw.span`tracking-wider text-sm font-medium`;
-const HighlightedText2 = tw.span`text-black px-4 transform -skew-x-12 inline-block font-serif text-[30px] `;
+const HighlightedText2 = tw.span`text-primary-500 px-4 transform -skew-x-12 inline-block font-serif text-[30px] `;
 const HighlightedText = tw.span` bg-primary-500 text-black px-4 transform -skew-x-12 inline-block font-serif text-[30px] `;
 const TwoColumn = tw.div`flex flex-col md:flex-row justify-between max-w-screen-2xl mx-auto py-20 md:py-24 items-center`;
 const Column = tw.div`w-full max-w-md mx-auto md:max-w-none md:mx-0`;
