@@ -57,7 +57,7 @@ const SimpleWithSideImage= ({
         "Nervosité, anxiété, troubles de sommeil,troubles de l’humeur, agressivité, repli sur soi, syndrome dépressif."
     },
     {
-      question: "D•	Singes physiques ",
+      question: "Singes physiques ",
       answer:
         "Troubles digestifs (colopathie, ulcère) et de l’appétit, affectionscardiovasculaires (hypertension artérielle…), céphalées, troubles cutanés (eczéma, psoriasis), TMS."
     },
