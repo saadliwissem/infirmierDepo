@@ -28,7 +28,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
+      " RPS",
       "react-app/jest"
     ]
   },
