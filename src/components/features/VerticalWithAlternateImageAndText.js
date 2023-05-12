@@ -36,45 +36,18 @@ const SvgDotPattern4 = tw(
   SvgDotPatternIcon
 )`absolute bottom-0 right-0 transform translate-x-20 rotate-90 -translate-y-24 -z-10 opacity-25 text-primary-500 fill-current w-24`;
 const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block italic `;
-
-const VerticalWithAlternateImageAndText= () => {
-  const cards = [
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1550699026-4114bbf4fb49?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=632&q=80",
-      subtitle: "A) ",
-      title: "Prévention primaire ",
-      description:
-        "La prévention primaire, cherche à repérer le facteur de risque dans l’organisation pour l’éliminer et le supprimer. La prévention primaire se situe au niveau collectif, elle a pour objectif : - Agir sur les causes socio-organisationnelles du mal-être (enrichir les tâches, réorganiser l’activité, mobiliser les collectifs, faire évoluer le management, améliorer les conditions de travail, etc.) et supprimer les agents psychosociaux pathogènes.",
-      url: "https://timerse.com"
-    },
-
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1543423924-b9f161af87e4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
-      subtitle: "B) ",
-      title: "Prévention secondaire ",
-      description:
-        "La prévention secondaire s’intéresse à l’individu, elle correspond à la gestion individuelle et collective des exigences du travail et à l’amélioration des stratégies d’adaptation individu-organisation. On outille l’individu pour lui apprendre à faire face aux RPS : techniques de gestion du stress, relaxation, formation au management, coaching, diffusion de bonnes pratiques, sensibilisation/information auprès des différents acteurs, identifier les problèmes récurrents. Elle tend vers un renforcement des ressources individuelles pour mieux faire face dans l’activité. Elle comporte donc beaucoup d’action de formations et de sensibilisation, telle que la gestion de l’incivilité des usagers (travail des techniques de communications).",
-      url: "https://timerse.com"
-    },
-
-    {
-      imageSrc:
-        "https://images.unsplash.com/photo-1509824227185-9c5a01ceba0d?ixlib=rb-1.2.1&auto=format&fit=crop&w=658&q=80",
-      subtitle: "C) ",
-      title: "Prévention tertiaire ",
-      description:
-        "La prévention tertiaire n’est plus de la prévention mais de la réparation. C’est la plus utilisée pour la prévention des RPS mais c’est la moins efficace dans la durée. La prévention tertiaire est axée sur les conséquences, elle prend en charge les infirmiers (ères) fragilisés, avec la mise en place de soutien psychologique, de mesures de protection, éviter les rechutes. On tente d’obtenir une diminution des manifestations des RPS pour favoriser le retour au travail.",
-      url: "https://timerse.com"
-    }
-  ];
+const Image = styled.div(props => [
+  `background-image: url("${props.imageSrc}");`,
+  tw`rounded md:w-1/2 lg:w-5/12 xl:w-1/3 flex-shrink-0 h-80 md:h-144 bg-cover bg-center mx-4 sm:mx-8 md:mx-4 lg:mx-8`
+]);
+const VerticalWithAlternateImageAndText= ({cards,Prévention }) => {
+  
 
   return (
     <Container>
       <SingleColumn>
         <HeadingInfoContainer>
-          <HeadingTitle><HighlightedText> Prévention</HighlightedText> </HeadingTitle>
+          <HeadingTitle><HighlightedText> {Prévention}</HighlightedText> </HeadingTitle>
           {/* <HeadingDescription>
             Here are some of the most popular events in New York City curated by professionals.
           </HeadingDescription> */}
@@ -83,7 +56,7 @@ const VerticalWithAlternateImageAndText= () => {
         <Content>
           {cards.map((card, i) => (
             <Card key={i} reversed={i % 2 === 1}>
-              {/* <Image imageSrc={card.imageSrc} /> */}
+              <Image imageSrc={card.imageSrc} /> 
               <Details>
                 <Subtitle>{card.subtitle}</Subtitle>
                 <Title>{card.title}</Title>

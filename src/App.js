@@ -16,6 +16,7 @@ import { ReactComponent as SvgDecoratorBlob1 } from "./images/svg-decorator-blob
 import { ReactComponent as SvgDecoratorBlob2 } from "./images/svg-decorator-blob-7.svg";
 import Consequences from "./Consequences";
 import Resultats from "./Resultats";
+import Rec from "./Rec";
 
 const HighlightedText = tw.span`bg-primary-500 text-gray-100 px-4 transform -skew-x-12 inline-block italic `;
 const imageCss = tw`rounded-4xl max-w-2xl`;
@@ -119,6 +120,7 @@ function App() {
           <Route path="/causes" element={<LesCauses />} />
           <Route path="/consequences" element={<Consequences />} />
           <Route path="/resultats" element={<Resultats />} />
+          <Route path="/rec" element={<Rec />} />
 
 
         </Routes>

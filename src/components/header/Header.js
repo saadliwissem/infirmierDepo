@@ -88,6 +88,8 @@ const AppHeader = ({
       <NavLink href="/causes">Les causes  </NavLink>
       <NavLink href="/consequences">Les conséquences </NavLink>
       <NavLink href="/resultats">Résultats & préventions </NavLink>
+      <NavLink href="/rec">RECOMMANDATION </NavLink>
+
 
      
     </NavLinks>,
