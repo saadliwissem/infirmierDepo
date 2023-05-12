@@ -47,7 +47,7 @@ const popularPosts = [
         "Je m'appelle Gassoumi Med Dhia, j'ai 21 ans je suis de sbeitla gouvernorat Kasserine. Actuellement, je poursuis mes études en sciences infirmières à l'Institut Supérieur de Sciences Infirmières du Kef. Je suis passionné par ce domaine et je suis fier de pouvoir aider les autres en tant qu'infirmier. A location de mon travail fin d'étude j'ai choisie avec mon binôme nasri gaith de faire un site web sur le titre de (les RPS chez les infirmiers travaillant dans les services d'oncologie) Notre objectif est d'atteindre un public le plus large possible pour sensibiliser à cette question importante. Notre travail est crucial pour aider les infirmiers et infirmières à reconnaître et à gérer les risques psychosociaux, et pour améliorer la qualité des soins pour les patients atteints de cancer. J'espère que nous avons contribué à la diffusion d'informations suffisantes sur ce sujet, et nous espérons que vous avez gagné votre admiration .",
       authorName: "Gassoumi Med Dhia",
       authorProfile: "facebook",
-      url: "facebook.com"
+      url: "https://www.facebook.com/Dhiaa.2001?mibextid=ZbWKwL"
     }
   ];
 const Bio = () => {
