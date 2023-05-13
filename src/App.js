@@ -59,7 +59,7 @@ function App() {
                         métier infirmier
                         <wbr />{" "}
                         <HighlightedText2>
-                          Le métier d'infirmier est l'un des plus importants
+                          Le métier d'infirmièr (ère) est l'un des plus importants
                           dans le domaine de la santé.
                         </HighlightedText2>
                       </>
