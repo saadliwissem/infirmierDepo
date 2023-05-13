@@ -7,6 +7,8 @@ import { css } from "styled-components/macro"; //eslint-disable-line
 import useAnimatedNavToggler from "../helpers/useAnimatedNavToggler.js";
 
 import logo from "../../images/logo1.png";
+import logo2 from "../../images/logo2.png";
+
 import { ReactComponent as MenuIcon } from "feather-icons/dist/icons/menu.svg";
 import { ReactComponent as CloseIcon } from "feather-icons/dist/icons/x.svg";
 
@@ -25,7 +27,7 @@ export const NavLinks = tw.div`inline-block`;
 export const NavLink = tw.a`
     text-primary-500
   no-underline
-  text-sm my-2 lg:text-sm lg:mx-4 lg:my-0
+  text-sm my-2 lg:text-[13px] lg:mx-4 lg:my-0
   font-semibold tracking-wide transition duration-300
   pb-1 border-b-2 border-transparent hover:border-primary-500 hocus:text-primary-500
 `;
@@ -101,6 +103,8 @@ const AppHeader = ({
   const defaultLogoLink = (
     <LogoLink href="/">
       <img src={logo} alt="logo" />
+      <img src={logo2} alt="logo" />
+
       RPS
     </LogoLink>
   );
