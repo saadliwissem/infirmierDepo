@@ -47,7 +47,7 @@ function App() {
                 <AnimationRevealPage>
                   <DecoratorBlob1 />
                   <Heading>
-                    Les risqués psychosociaux chez les infirmiers (ères)
+                    Les risques psychosociaux chez les infirmiers (ères)
                     travaillant dans les services d'oncologie.
                   </Heading>
                   <DecoratorBlob2 />
@@ -56,7 +56,7 @@ function App() {
                     subheading=""
                     heading={
                       <>
-                        métier infirmier
+                        métier infirmier (ère)
                         <wbr />{" "}
                         <HighlightedText2>
                           Le métier d'infirmièr (ère) est l'un des plus importants
