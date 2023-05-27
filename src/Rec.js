@@ -212,14 +212,14 @@ const Rec = () => {
               moyens de les prévenir. Cela peut inclure la recherche sur les
               facteurs de risque, les interventions préventives, les stratégies
               de gestion, ou encore l'impact économique des risques
-              psychosociaux sur les entreprises et la société.
+              psychosociaux sur les établissements de la santé et la société.
               <pre></pre>
               <HighlightedText2>
-                Sensibiliser et informer les entreprises et les employés:
+                Sensibiliser et informer les établissements de la santé et les employés:
               </HighlightedText2>
               <pre></pre>
               le gouvernement peut jouer un rôle clé dans la sensibilisation et
-              l'information des entreprises et des employés sur les risques
+              l'information des établissements de la santé et des employés sur les risques
               psychosociaux, leurs conséquences et les moyens de les prévenir.
               Cela peut se faire à travers des campagnes de sensibilisation, des
               brochures informatives, des vidéos explicatives, ou encore des

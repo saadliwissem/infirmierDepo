@@ -37,7 +37,7 @@ const FacteurRisque = () => {
             <>
               <wbr />{" "}
               <HighlightedText2>
-                Les facteurs psychosociaux de risque au travail mis en évidence
+                Les facteurs RPS au travail mis en évidence
                 par la littérature scientifique peuvent être regroupés autour de
                 six axes:
               </HighlightedText2>
@@ -66,7 +66,7 @@ const FacteurRisque = () => {
               <Subheading></Subheading>
               <Heading>1) Intensité du travail:</Heading>
               <Description>
-                représente le premier axe et est décrite ainsi :Le caractère
+                représente le premier axe et  décrite ainsi :Le caractère
                 exigeant du travail peut provenir du temps qu’il occupe ou de
                 son intensité. Les exigences temporelles sont liées à la durée
                 du travail et à l’organisation du temps de travail. L’intensité
@@ -159,7 +159,7 @@ const FacteurRisque = () => {
                 Une souffrance éthique est ressentie par une personne à qui on
                 demande d’agir en opposition avec ses valeurs professionnelles,
                 sociales ou personnelles. Le conflit de valeurs peut venir de ce
-                que le but du travail ou ses effets secondaires heurtent les
+                que le but du travail où ses effets secondaires heurtent les
                 convictions du travailleur, ou bien du fait qu’il doit
                 travailler d’une façon non conforme à sa conscience
                 professionnelle.

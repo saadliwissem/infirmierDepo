@@ -71,15 +71,15 @@ const ThreeColWithSideImage= ({ cards = null, heading = "Amazing Features", subh
     {
       imageSrc: "",
       title: "Charge de travail ",
-      description: "la majorité de notre population soit 46.8% travail dans un charge de travail élevé."
+      description: "la majorité de notre population soit 46.8%  déclarent qu'ils souffrent d'un charge de travail élevé."
     },{
       imageSrc: "",
       title: "Stress ",
-      description: "On a trouvé que presque les 2/3 de notre population déclarent un taux de stress enlevée et uniquement 6,5%%disent que ce taux est faible."
+      description: "On a trouvé que presque les 2/3 de notre population déclarent un niveau de stress élevé et uniquement 6,5% disent que ce niveau est faible."
     },{
       imageSrc: "",
       title: "Epuisement",
-      description: "On a remarqué que le taux d’épuisement est déclaré très élevé par presque les 2/3 des enquêtés avec un taux élevé de 67.7%."
+      description: "On a remarqué que le niveau d’épuisement est déclaré très élevé par presque les 2/3 des enquêtés avec un niveau élevé de 67.7%."
     },{
       imageSrc: "",
       title: "Exigences émotionnelles",
