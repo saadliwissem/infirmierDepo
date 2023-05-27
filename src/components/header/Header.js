@@ -87,10 +87,10 @@ const AppHeader = ({
     <NavLinks key={1}>
       <NavLink href="/">Métier & Définition</NavLink>
       <NavLink href="/facteurs">Les facteurs de risques </NavLink>
-      <NavLink href="/causes">Les causes  </NavLink>
-      <NavLink href="/consequences">Les conséquences </NavLink>
-      <NavLink href="/resultats">Résultats & préventions </NavLink>
-      <NavLink href="/rec">RECOMMANDATIONS </NavLink>
+      <NavLink href="/causes">Les causes</NavLink>
+      <NavLink href="/consequences">Les conséquences</NavLink>
+      <NavLink href="/resultats">Résultats & préventions</NavLink>
+      <NavLink href="/rec">RECOMMANDATIONS</NavLink>
       <NavLink href="/about">About us</NavLink>
 
     </NavLinks>,
